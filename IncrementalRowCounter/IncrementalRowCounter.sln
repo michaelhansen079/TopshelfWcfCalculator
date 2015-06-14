@@ -5,16 +5,27 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IncrementalRowCounter", "IncrementalRowCounter\IncrementalRowCounter.csproj", "{4FE2D3FC-BEDC-4384-888A-E0FE1263E132}"
 EndProject
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "ClientSSIS", "ClientSSIS\ClientSSIS.dtproj", "{55C6BE74-0D6A-4C19-9A43-65F055C51574}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4FE2D3FC-BEDC-4384-888A-E0FE1263E132}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4FE2D3FC-BEDC-4384-888A-E0FE1263E132}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FE2D3FC-BEDC-4384-888A-E0FE1263E132}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FE2D3FC-BEDC-4384-888A-E0FE1263E132}.Development|Any CPU.Build.0 = Debug|Any CPU
 		{4FE2D3FC-BEDC-4384-888A-E0FE1263E132}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FE2D3FC-BEDC-4384-888A-E0FE1263E132}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55C6BE74-0D6A-4C19-9A43-65F055C51574}.Debug|Any CPU.ActiveCfg = Development
+		{55C6BE74-0D6A-4C19-9A43-65F055C51574}.Debug|Any CPU.Build.0 = Development
+		{55C6BE74-0D6A-4C19-9A43-65F055C51574}.Development|Any CPU.ActiveCfg = Development
+		{55C6BE74-0D6A-4C19-9A43-65F055C51574}.Development|Any CPU.Build.0 = Development
+		{55C6BE74-0D6A-4C19-9A43-65F055C51574}.Release|Any CPU.ActiveCfg = Development
+		{55C6BE74-0D6A-4C19-9A43-65F055C51574}.Release|Any CPU.Build.0 = Development
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
